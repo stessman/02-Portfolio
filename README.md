@@ -1,7 +1,7 @@
 # Unit 02 Homework : Portfolio
 This is the homework assignment for Unit 02 Advanced CSS
 
-<img src="assets\images\02_Portfolio.png">
+<img src="assets\images\02_Portfolio.PNG">
 
 ## What problem are we trying to solve
 This project was created to be a portfolio page for all of my work as a Web Developer. On this page there are links to different sections including About Me, my Work, and different options to Contact Me. In the About Me section I go over basic information about me and what I have accomplished. In the Work sections there are some clickable images which will navigate the user to some of the projects that I have worked on in the past. Under the Contact Me section there is my phone number, my email address, a navigatable link to my Github and a link to my Facebook page.
