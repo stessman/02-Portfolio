@@ -11,55 +11,97 @@
     <body>
         <header>
             <h1>
-                Scott Tessman Portfolio
+                Scott Tessman
             </h1>
+            <img id="mypic" src="./assets/images/me.png" alt="Picture of Scott">
             <nav>
                 <ul>
                     <li>
-                        <a href="#aboutme">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
+                        <a href="#contactMeArea">Contact Me</a>
                     </li>
                     <li href="#">
-                        <a href="#contactme">Contact Me</a>
+                        <a href="#workArea">Work</a>
                     </li>
                     <li href="#">
-                        <a href="#resume">Resume</a>
+                        <a href="#aboutMeArea">About Me</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <div><img id="treeimg" src="./assets/images/trees.jpg" alt="Forest in Fall"></div>
         <main>
-            <article id="aboutme">
+            <section class="flexSection">
+            <div class="sectionHeading">
                 <h2>
                     About Me
                 </h2>
-                <img id="mypic" src="./assets/images/me.png" alt="Picture of Scott">
+            </div>
+            <div id="aboutMeArea">
                 <p>
-                    Hello, my name is Scott Tessman and I am currently enrolled in a Coding Bootcamp through the University of Minnesota.
+                    Hello, my name is Scott Tessman and I am currently enrolled in a Coding Bootcamp through the University of Minnesota. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eos. Nemo voluptatibus recusandae laborum, harum quia repudiandae beatae provident optio totam delectus cumque vel explicabo dignissimos deserunt consequatur necessitatibus! Eligendi?
                 </p>
-            </article> 
-            <article id="work">
+                <p>
+                    Hello, my name is Scott Tessman and I am currently enrolled in a Coding Bootcamp through the University of Minnesota. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eos. Nemo voluptatibus recusandae laborum, harum quia repudiandae beatae provident optio totam delectus cumque vel explicabo dignissimos deserunt consequatur necessitatibus! Eligendi?
+                </p>
+            </div> 
+            </section>
+            <section class="flexSection">
+            <div class="sectionHeading">
                 <h2>
                     Work
                 </h2>
-                <img class= "mainwork" src="./assets/images/desert.jpg" alt="Desert">
-                <img class= "subwork" src="./assets/images/led.jpg" alt="LED Lights">
-                <img class= "subwork" src="./assets/images/magic.jpg" alt="Space Hand">
-            </article> 
-            <article id="contactme">
-                <h2>
-                    Contact Me
-                </h2>
-            </article> 
-            <article id="resume">
-                <h2>
-                    Resume
-                </h2>
-            </article> 
-           
+            </div>
+                <div id="workArea">
+                    <a href="#"><div class = "imgHoverContainer">
+                        <img class= "mainWorkImg" src="./assets/images/desert.jpg" alt="Desert">
+                        <div class = "imgOverlay"></div>
+                        <div class="workImgTag">
+                            <h4>Sandstorm</h4>
+                            <p>JavaScript</p>
+                        </div>
+                    </div></a>
+                    <a href="#"><div class = "imgHoverContainer"> 
+                        <img class= "subWorkImg" src="./assets/images/led.jpg" alt="LED Lights">
+                        <div class = "imgOverlay"></div>
+                        <div class="workImgTag">
+                            <h4>LED Box</h4>
+                            <p>C#</p>
+                        </div></a>
+                    </div>
+                    <a href="#"><div class = "imgHoverContainer">
+                        <img class= "subWorkImg" src="./assets/images/magic.jpg" alt="Space Hand">
+                        <div class = "imgOverlay"></div>
+                        <div class="workImgTag">
+                            <h4>Galaxy</h4>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </div></a>
+                </div>
+            </div> 
+            </section>
+            <section class="flexSection">
+                <div class="sectionHeading">
+                    <h2>
+                        Contact Me
+                    </h2>
+                </div>
+                <div id="contactMeArea">
+                    <ul id="contactItems">
+                        <li>
+                            763-486-2651
+                        </li>
+                        <li>
+                            scott.tessm@gmail.com
+                        </li>
+                        <li>
+                            <a href="https://github.com/stessman" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/scott.tessman.3" target="_blank">Facebook</a>
+                        </li>
+                    </ul>
+                </div> 
+            </section>           
         </main>
     </body>
 
