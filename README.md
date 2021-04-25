@@ -17,4 +17,4 @@ This project was created to be a portfolio page for all of my work as a Web Deve
 ## Notes
 I believe that I did alright with this project excluding some elements of the page being placed awkwardly. I still need some time to get used to using flexbox as well as adjusting the elements on the page to fit the viewport. I plan on continuing work on this project until I can further my understanding.
 
-Link to the live site: [Horiseon](https://stessman.github.io/code-refactor/)
+Link to the live site: [Scott Tessman's Portfolio](https://stessman.github.io/02-Portfolio/)
